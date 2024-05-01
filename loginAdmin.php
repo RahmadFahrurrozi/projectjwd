@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Jika ditemukan admin dengan username dan password yang cocok
     if ($count == 1) {
         // Redirect ke halaman admin
-        header("Location: admin_dashboard.php");
+        header("Location: dashboardadmin.php");
     } else {
         // Jika tidak cocok, tampilkan pesan error
         $error_message = "Username atau password salah.";

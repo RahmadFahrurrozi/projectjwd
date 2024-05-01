@@ -43,7 +43,10 @@ if(isset($_GET['id_pemesan'])) {
         <a href="loginAdmin.php" class="btn btn-danger mt-3 py-2 px-3">Log-out</a>
       </div>
       <h1>Data Pemesan</h1>
-      <b class="text-primary"><?php echo $sambutanAdmin; ?></b>
+      <div class="d-flex align-items-center">
+        <b class="pt-3 text-primary"><?php echo $sambutanAdmin; ?></b>
+      </div>
+      <a href="tambahDataPemesan.php" class="btn btn-success mt-3 py-1 px-5">Tambah Data +</a>
       <hr>
       <div class="d-flex justify-content-center">
         <a href="dashboardadmin.php" class="btn btn-primary mt-3 py-2 px-5 mx-2">Data pemesan</a>
